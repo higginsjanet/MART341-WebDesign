@@ -1,0 +1,19 @@
+1. How is the world wide web different than the internet? The Internet is the physical network of network of networks. 
+The World Wide Web, or simply web, is a way of accessing information over the medium of the internet. 
+It is an information-sharing model that is built on top of the internet. 
+
+2. Briefly describe how the internet works.  Internet is the interconnection of multiple networks all over the world. 
+Internet is the biggest network of computing devices existing. Internet uses various sets of protocols such as 
+transmission control protocol (TCP) and Internet protocol (IP) for its functioning. 
+
+3. What is a directory, and what is its relationship to files? A directory is a file system cataloging structure which 
+contains references to other computer files, and possibly other directories. On many computers, directories are known as folders.
+
+4. How will VCS benefit you?
+VCS tracks changes. Version control allows a developer/writer to make changes to a file and track their changes over 
+time. By “committing” changes to a file with a simple, associated message, the developer can create a list of how they have changed them over time.
+VCS allows you to revert back to an earlier version.
+VCS allows you to share and collaborate. 
+
+5. What is your favorite kind of art? My favorite kind of art is photography. 
+
