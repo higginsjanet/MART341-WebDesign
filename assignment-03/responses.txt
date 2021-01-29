@@ -1,1 +1,18 @@
+1. Provide three websites that you enjoy visiting?
+I enjoy visiting amazon.com to buy things, lsm.org to buy books, render.com to find help.
 
+2. What is the relationship between an IP address and the DNS?
+An IP address is an address assigned to any computer (including servers) to identify it on a given network. 
+A DNS address is a Domain Name Service which is used to convert alphabetic references into a server's IP 
+address generally for hosting services.
+
+3. What is a cookie?
+Cookie is a packet of data that a computer receives, then sends back without changing or altering it. 
+The purpose of the cookie is to help the website keep track of your visits and activity.
+
+4. List the three essential parts of a URL.
+The essential parts of a URL: the scheme, the host address, and the file path. 
+A URL for HTTP (or HTTPS) is normally made up of three or four components:
+A scheme. The scheme identifies the protocol to be used to access the resource on the Internet. It can be HTTP (without SSL) or HTTPS (with SSL) or FTP.
+A host. The host name identifies the host that holds the resource. For example, www.example.com. 
+A path. The path identifies the specific resource in the host that the web client wants to access. For example, /image/screenshot.jpg. 
