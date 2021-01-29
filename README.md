@@ -15,4 +15,4 @@ Three things I learned this week.
 
 [responses](responses.txt)
 
-![screenshot](/images/screenshot.jpg)
+![screenshot](images/screenshot.jpg)
