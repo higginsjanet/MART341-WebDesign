@@ -17,4 +17,4 @@ Three things I learned this week.
 2. A markup language: In computer text processing, a markup language is a system for annotating a document in a way that is syntactically distinguishable from the text, meaning when the document is processed for display, the markup language is not shown, and is only used to format the text. The most common mark up language is html which is used to display pages on the web.
 
 
-![screenshot](/images/screenshot.jpg)
+![screenshot](/assignment-04/images/screenshot.jpg)
