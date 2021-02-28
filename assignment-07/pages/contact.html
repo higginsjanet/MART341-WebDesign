@@ -1,0 +1,105 @@
+<!-- Define the character set used: -->
+<meta charset="UTF-8">
+
+<!-- Provide a description and key words of your page: -->
+<meta name="description" content="Yellowstone Adventures">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+
+<!-- Provide the author information for the page: -->
+<meta name="author" content="Janet Higgins">
+
+<!-- for viewing on different devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- title must be included -->
+<title>Yellowstone Adventures contact page</title>
+
+<!-- page css style elements -->
+<style>
+  body {background-color:#9ab7e3}
+  h1 {color:#193452}
+  h2 {color:#193452}
+  h3 {color:#193452}
+  p {color:#193452}
+  table, th, td {
+        /* Attributes that will "decorate" the table: */
+  /* border: 1px solid black; */
+  padding: 5px;
+  }
+</style>
+
+</head>
+<body>
+  <table width="100%" col="6">
+    <tr>
+        <td style="width:95px"><a href="..\index.html" style="text-decoration: none"><img src="../images/JAHlogoBlue.png" alt="logo" title="Blue logo" style="width:92px;height:83px;" /></a></td>
+      <td colspan="5"><h1 style="text-align:left">Yellowstone Adventures</h1></td>
+
+</tr>
+
+<tr>
+  <td colspan="6">
+
+  <img src="../images/grizzlies.png" alt="grizzly family" title="Grizzly family along Soda Butte Creek" style="width:834px;height:238px;" />
+  <br />
+  </td>
+</tr>
+<tr>
+    <td colspan="3" style="text-align:center">
+  <cite>Grizzlies on Soda Butte Creek photo by JA Higgins 2017</cite
+  </td>
+<td></td>
+</tr>
+
+  <tr>
+      <td colspan="6">
+
+
+        <h3>  2021 Scheduled Yellowstone 7 Day Adventures</h3>
+      </td></tr>
+
+
+      <!-- This is where the user choses an adventure to obtain information. -->
+      <tr>
+          <td colspan="6">
+              <form action="#" method="get" id="info-form">
+          <p>Check the boxes you would like information sent to you via email:</p>
+    <input type="checkbox" name="adventure" value="hiking" /> Backpacking Adventure
+    <br />
+    <input type="checkbox" name="adventure" value="horseback" checked /> Horseback Adventure
+    <br />
+    <input type="checkbox" name="adventure" value="research"  /> Wolf research Adventure
+    <br />
+    <input type="checkbox" name="adventure" value="photography" />Photography Adventure
+<br />
+<br />
+<p>Housing request:</p>
+  <input type="radio" name="housing" value="inPark" checked /> In Park
+  <br />
+  <input type="radio" name="housing" value="offPark"  /> Outside Park
+  <br /><br />
+<p>Enter your first name and email address to receive information via email </p>
+Enter your first name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="text" name="firstName" id="firstName_input" />
+      <br /><br />
+Enter your email address:
+          <input type="text" name="emailAddr" id="emailAddr_input" autofocus />
+      <br />
+      <br />
+
+  Comments or Concerns:<br />
+  <textarea name="comments" id="concerns-textarea" style="width:40%" rows="4">Enter up to 500 characters...</textarea>
+  <br /><br />
+  <input type="submit" name="submit" value="submit your request for information" />
+      </form>
+      </td></tr>
+      <tr><td colspan="6"><address>
+  Yellowstone Adventures<br />
+  32 Madson Ave.<br />
+  West Yellowstone, MT 59748 <br />
+  adventurers@yellowstoneadventures.com <br />
+  +1 (406) 444-1234
+</address></td></tr>
+</table>
+</body>
+</html>
