@@ -1,0 +1,84 @@
+ body {
+    	background-color: #010727;
+
+       text-align: center;
+
+      }
+
+     /*  Containers for the main contents */
+
+
+
+  	.container2 {
+       	text-align: center;
+	       color:white;
+       width:800px;
+	      margin: auto;
+       padding: 50px;
+
+	}
+
+	.title2 {
+	font-family: 'Fjalla One', 'Open Sans Condensed';
+	font-weight:normal;
+	font-size: 20px;
+	color: white;
+	}
+
+	 p {
+	color: white;
+	font-family: Arial, Verdana, Tahoma;
+       font-size: large;
+       	text-align: left;
+	line-height: 1.45em;
+	padding: 20px;
+	background-color: rgba(00,00,00, 0.4);
+
+	}
+
+	/* PSEUDO ELEMENT - Select the first letter that occurs: */
+	.container2 p:first-child::first-letter {
+  	 font-family: Trirong, "Times New Roman";
+  	 font-size: 2em;
+   	font-weight: bold;
+	}
+
+	/* PSEUDO CLASS - Select the first paragraph child: */
+	.container2 p:first-child {
+ 	  text-indent:10;
+	}
+
+
+	h1 {
+	color:white;
+	font-size:40px;
+	letter-spacing: 0.2em;
+       font-family: "Trirong", "Times New Roman", serif;
+	text-align: center;
+	padding: 5px;
+	}
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+  color: #ffff99;
+}
+
+  h2 {
+	color:white;
+	font-size: 20px;
+       font-family: "Trirong", "Times New Roman", serif;
+	text-align: center;
+	padding: 5px;
+	}
+
+  h3 {
+  color:white;
+  font-size: 16px;
+       font-family: "Trirong", "Times New Roman", serif;
+  text-align: center;
+  padding: 5px;
+
+  }
