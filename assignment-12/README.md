@@ -85,3 +85,66 @@ Paragraphs, Breaks, and Lists. Semantic markup is used to reinforce the semantic
 3. Free Response: Summarize your challenges and successes.  What did you do to overcome your challenges?
 	I think that the challenge was in figuring out the CSS to use the unordered list as an inline and as the usual look in the list. I made a class for the navigation list. I still struggle with
 	centering in a table. I just created an empty table data column to push the form to the center.
+
+
+# Assignment 10
+## Janet Higgins
+
+1. Describe the difference between the universal, element, class, and id selector types. When
+might you choose one over the other to style content?
+
+The universal selector is used to style every element on a page. The universal selector is the star (*). The star is often used in computer science to mean “all.”
+
+The element selector is used to select all elements of a certain type. This selector is applied by simply using an element name (the reserved keyword placed in the opening tag of an element).
+
+Class names assigned to HTML elements via the class="" attribute can also be used to style elements. To select class elements, prepend a dot (.) to the front of the class name in the CSS.
+
+Using class selectors is a great way to select elements that serve the same function.
+
+Just like the class selector, the ID selector allows developers to define style rules for a specific element by calling its unique ID.
+ID names are prepended with a number sign (#).
+
+
+2. Briefly discuss your color palette, including the 3 colors you chose. List their color names, RGB
+values, or hex codes.
+I chose 4 colors used in fashion in the 1960s:
+Grenadine rgb(198,56,52) #c63834
+Mellow Yellow rgb(252,209,114) #fcd172
+Liquid Blue rgb(98,184,207) #62b8cf
+Dusty Green rgb(96,230,147) #54cf82
+
+and a gray for the page background and background for Paragraph
+rgb(15,188,236) #0fbcec
+
+
+
+3. Free Response: Please discuss any challenges you had this week and how you overcame them.
+I really wanted to use the four colors as independent overlapping layers as you can see in the center. But
+I found out I couldn't use a z-index so I just did the 4 color mix in photoshop and saved as
+a jpg.
+
+# Assignment 11
+## Janet Higgins
+
+1. What is the difference between a system font, web font, and web-safe font?
+	The system fonts are on the user's computer, web fonts are linked to the web page from another site, web-safe
+	fonts are only the fonts that are in common to different operating systems.
+
+2. What is the importance of having fallback fonts or a font stack?
+	Just in case your choice doesn't load or loads slow, the fallback fonts will be loaded in
+	the order of the font stack.
+
+3. Free Response: Please discuss any challenges you had this week and what you did to overcome them.
+	The <p> in the first paragraph wouldn't show the firstchild css. I discovered that it was having the title
+	in the same container. As soon as I separated the title in its own div and the first paragraph in its own div it worked.
+
+# Assignment 12
+## Janet HIGGINS
+
+1. What is the difference between padding, margin, and borders?
+The content is in a box and is padded from the border of the box. The box is actually the size of the border and its distance from other boxes is determined by the margins.
+
+2. Free Response: Discuss any challenges you had this week and how you overcame them.
+I think the hardest thing was trying to center a smaller box containing a table. I more or less cheated by making the left margin very large. This solution won't look good when the page is resized.
+
+	
