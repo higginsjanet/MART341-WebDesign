@@ -86,6 +86,7 @@ Paragraphs, Breaks, and Lists. Semantic markup is used to reinforce the semantic
 	I think that the challenge was in figuring out the CSS to use the unordered list as an inline and as the usual look in the list. I made a class for the navigation list. I still struggle with
 	centering in a table. I just created an empty table data column to push the form to the center.
 
+
 # Assignment 10
 ## Janet Higgins
 
