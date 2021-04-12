@@ -145,3 +145,13 @@ The content is in a box and is padded from the border of the box. The box is act
 
 2. Free Response: Discuss any challenges you had this week and how you overcame them.
 I think the hardest thing was trying to center a smaller box containing a table. I more or less cheated by making the left margin very large. This solution won't look good when the page is resized.
+
+# Assignment 13
+## Janet HIGGINS
+
+1. Who was your imaginary client? How did they describe their site needs?
+My imaginary client is "Cakes by the Slice". They needed a way to tell people what they were selling and how to find it.
+2. Why is it important to consider a mobile-first design?
+A lot of their clients will be using mobile devices to locate their cake van since it is mobile.
+3. Free Response: Please discuss your challenges and how you overcame them
+After carefully reading and going over all of the topics previously covered, I was still at a loss how to implement the site. The more I tried, the more messed up the index page got and the nav bar was more than terrible. Sorry, I needed to use your example pages to make any sense of the new materials. I then could realize how to make rows and columns and how it fit together. I experimented with adding col-1 etc. to the columns and then checked it in the small size. I found out that having a col-1 even made the column with wording really narrow. I really liked putting the image information in the style sheet. Thanks for the great coarse, the reference materials now make sense seeing the big picture. I have had a lot of fun doing crazy artistic stuff. 
