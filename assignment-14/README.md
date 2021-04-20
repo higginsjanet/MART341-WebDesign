@@ -160,7 +160,7 @@ After carefully reading and going over all of the topics previously covered, I w
 ## Janet HIGGINS
 
 1. What library did you choose? I chose Bootstrap. I have used it with Dreamweaver before.
-2. Did you use a local file or CDN? Why? I down loaded it and chose only the bootstrap.min.css and the bootstrap.min.js files.
+2. Did you use a local file or CDN? Why? I down loaded it and chose only the bootstrap.css, bootstrap.min.css and the bootstrap.min.js files.
 3. How does HTML5 change the web? I think that the web is more dynamic using the more javascript. 
 4. Free Response: Please discuss your challenges and how 
-you overcame them. My biggest challeng was with the javascript. Even following a tutorial was impossible. So I chose to work in visual Studio. That helped a lot.
+you overcame them. My biggest challeng was with the javascript. Even following a tutorial was impossible. So I chose to work in visual Studio. That helped a lot. Now I notice that the stores.html and the drop down isn't working. No solution could I find.
