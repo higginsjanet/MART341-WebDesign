@@ -159,7 +159,7 @@ After carefully reading and going over all of the topics previously covered, I w
 # Assignment 14
 ## Janet HIGGINS
 
-1. What library did you choose? I chose Bootstrap. I have used with Dreamweaver before.
+1. What library did you choose? I chose Bootstrap. I have used it with Dreamweaver before.
 2. Did you use a local file or CDN? Why? I down loaded it and chose only the bootstrap.min.css and the bootstrap.min.js files.
 3. How does HTML5 change the web? I think that the web is more dynamic using the more javascript. 
 4. Free Response: Please discuss your challenges and how 
