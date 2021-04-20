@@ -1,0 +1,186 @@
+html, body {
+  height: 100%;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.gradient {
+  background: rgb(74,60,59);
+  background: linear-gradient(90deg, rgba(74,60,59,1) 0%, rgba(117,96,94,1) 35%, rgba(191,106,77,1) 100%);
+}
+
+.page-header {
+  margin-top: 8rem;
+  font-size: 1.25rem;
+  color: white;
+}
+* {
+    box-sizing: border-box;
+}
+
+.textareacomments{
+    padding-bottom: 300px;
+}
+
+
+div{
+    text-align: left;
+    line-height: 1.45em;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+h1, h3{
+    text-align: center;
+    font-family: Trirong, serif;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.firstTitle {
+  text-align: center;
+  font-family: Trirong, serif;
+  font-size: 2.5em;
+  font-weight: bolder;
+  color: black;
+  padding-top: 100px;
+  padding-bottom: 5px;
+}
+.secondTitle {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bolder;
+  font-family:Fjalla,monospace;
+}
+
+.opening-paragraph{
+    color: black;
+    font-size: 16px;
+    text-indent: 10px;
+    font-weight:700;
+}
+
+.opening-paragraph::first-line{
+    font-size: 16px;
+}
+.second-paragraph{
+    font-size: 16px;
+}
+
+table{
+    border: 1px dashed black;
+    font-family:  Trirong, serif;
+    font-weight: 700;
+    padding: 10px;
+}
+
+
+p{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+
+
+.mainimage{
+    float: left;
+    content:url("../images/cakeEater_sm.jpg");
+
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    .mainimage{
+        content:url("../images/cakeEater_bg.jpg");
+    }
+}
+
+.secondimage{
+    float:right;
+    content:url("../images/cakeSlice_sm.jpg");
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    .secondimage{
+        float:right;
+        content:url("../images/cakeSlice.jpg");
+    }
+}
+
+.thirdimage{
+    margin: auto;
+    content:url("../images/cakeDisplay_sm.jpg");
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    .thirdimage{
+        margin: auto;
+        content:url("../images/cakeDisplay.jpg");
+    }
+}
+
+.fourthimage{
+    margin:auto;
+    content:url("../images/storeOwners_sm.jpg");
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    .fourthimage{
+        margin: auto;
+        content:url("../images/storeOwners.jpg");
+    }
+}
+
+.fifthimage{
+    margin:auto;
+    content:url("../images/stores_sm.jpg");
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    .fifthimage{
+        margin: auto;
+        content:url("../images/stores.png");
+    }
+}
+
+
+.sixthimage{
+    margin:auto;
+    content:url("../images/cake-truck_sm.jpg");
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    .sixthimage{
+        margin: auto;
+        content:url("../images/cake-truck.jpg");
+
+    }
+}
+
+
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
