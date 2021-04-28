@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact page</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="My Artist Site">
+    <meta name="author" content="Janet Higgins">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="../css/stylecontact.css" type="text/css" />
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Orelega+One&family=Taviraj:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+ <section class="showcase">
+   <header>
+    <h2 class="logo">J.A. Higgins</h2>
+    <div class="toggle"></div>
+  </header>
+
+  <video src="../media/bigCedars.mp4" muted loop autoplay></video>
+  <div class="overlay"></div>
+  <div class="text">
+    <h2>contact me</h2>
+    <h3>for more information</h3>
+    <br />
+    <form action="#" method="get">
+      <fieldset>
+        <legend>
+          Your Information
+        </legend>
+        <label> 
+          Name:
+          <input type="text" name="name" size="30" maxlength="100">
+        </label>
+        <br />
+        <label>
+          Email:
+          <input type="email" size="30"  maxlength="100">
+        </label>
+        <br />
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>
+            Type of information
+        </legend>
+          <input type="checkbox" name="info-type" value="portraits" /> Portraits
+          <input type="checkbox" name="info-type" value="wildlife" /> Wildlife
+          <input type="checkbox" name="info-type" value="landscapes" /> Landscape
+          <input type="checkbox" name="info-type" value="documentary" /> Documentary
+          <br />
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>Comments</legend>
+      
+        <textarea rows="2%" cols="45S%" id="comments">
+        </textarea>
+        </fieldset>
+      <br />
+      <input type="submit" value="submit">
+
+    </form>
+   
+  </div>
+    <ul class="social">
+      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png" alt=""></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png" alt=""></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png" alt=""></a></li>
+    </ul>
+  </section>
+   
+  <div class="menu">
+    <ul>
+      <li><a href="../index.html">home</a></li>
+      <li><a href="./photography.html">photography</a></li>
+      <li><a href="./documentaries.html">documentaries</a></li>
+      <li><a href="./contact.html">contact</a></li>
+    </ul>
+  </div>
+  <script>
+    const menuToggle = document.querySelector('.toggle')
+    const showcase = document.querySelector('.showcase')
+    menuToggle.addEventListener('click', function() {
+      menuToggle.classList.toggle('active');
+      showcase.classList.toggle('active');
+    })
+  </script>
+ 
+</body>
+
+</html>

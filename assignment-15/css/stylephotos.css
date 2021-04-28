@@ -1,0 +1,265 @@
+:root{
+    --overlay-color: #4d718f;
+}
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Taviraj', serif;
+    font-size: 10px;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image:url(../images/bigCedarStill_b.jpg);
+    z-index: -5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity:.95;
+}
+
+.container1{
+    padding: .5em;
+    margin-bottom: .5em;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    font-family: Taviraj;
+    text-transform: uppercase;
+    margin-top: 0;
+    height: 4em;
+    width: 100%;
+    text-align: right;
+    color: #fff;
+    
+    
+}
+
+.logo{
+    font-family: 'Taviraj', serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 0.2em;
+    text-align: left;
+    padding: 1em;
+    color:#fff;
+}
+/* Set the layout of the menu: */
+
+.menu {
+    position: absolute;
+     display: flex;
+    align-items: center; 
+    justify-content: right;
+    align-content: center;
+    text-align: right;
+ }
+
+.menu-item {
+    display:inline-block;
+    margin: 1em .2em;
+    min-width: 6em;
+    text-align: right;
+    padding: 0.5em 1em;
+    justify-content: right;
+    
+}
+
+/* Style the links: */
+.menu-item a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: 0.5s;
+}
+
+.menu-item a:hover {
+    transform: scale(0.5) translate(-15px);
+    color: #24451c;
+}
+
+
+.container2{
+    width: 100%;
+    max-width: 120rem;
+    margin-top: 5em;
+
+    padding: 0 1.5rem;
+}
+
+.image-gallery{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    grid-gap: 1.5rem;
+    grid-template-areas: 
+        'img-1 img-2 img-3 img-3'
+        'img-1 img-4 img-5 img-6'
+        'img-7 img-7 img-8 img-6'; 
+}
+
+.image-gallery a {
+    width: 100%;
+    height: 25rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.image-gallery a i{
+    color: rbga(255, 255, 255, 0.6);
+    font-size: 3em;
+    position: relative;
+    z-index: 100;
+    padding: 1rem 3rem;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    border-radius: .4rem;
+    opacity:0;
+    transition: opacity 0.5s;
+}
+
+.image-gallery a::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.image-gallery a:hover i,
+.image-gallery a:hover::before{
+    opacity: 1;
+    z-index: 20;
+}
+
+.img-1{
+    grid-area: img-1;
+    min-height: 51.5rem;
+    background-image: url("../images/img-1.jpg");
+    opacity: 1;
+}
+
+.img-2{
+    grid-area: img-2;
+    background-image: url("../images/img-2.jpg");
+}
+
+.img-3{
+    grid-area: img-3;
+    background-image: url("../images/img-3.jpg");
+}
+
+.img-4{
+    grid-area: img-4;
+    background-image: url("../images/img-4.jpg");
+}
+
+.img-5{
+    grid-area: img-5;
+    background-image: url("../images/img-5.jpg");
+}
+
+.img-6{
+    grid-area: img-6;
+    min-height: 51.5rem;
+    background-image: url("../images/img-6.jpg");
+}
+
+.img-7{
+    grid-area: img-7;
+    background-image: url("../images/img-7.jpg");
+}
+
+.img-8{
+    grid-area: img-8;
+    background-image: url("../images/img-8.jpg");
+}
+
+@media screen and (max-width: 900px){
+    .image-gallery{
+        grid-template-areas: 
+        'img-1 img-1 img-2 img-2'
+        'img-1 img-1 img-3 img-3'
+        'img-4 img-4 img-5 img-5'
+        'img-6 img-7 img-7 img-7'
+        'img-8 img-8 img-8 img-8';
+    }
+    .image-gallery a{
+        height:20rem;
+    }
+    .img-1{
+        min-height: 41.5rem;
+    }
+    .img-6{
+        min-height: 20rem;
+    }
+} 
+
+
+@media screen and (mox-width: 600px){
+    .image-gallery{
+        grid-template-areas: 
+        'img-1 img-1 img-1 img-1'
+        'img-2 img-2 img-2 img-2'
+        'img-3 img-3 img-3 img-3'
+        'img-4 img-4 img-4 img-4'
+        'img-5 img-5 img-5 img-5'
+        'img-6 img-6 img-6 img-6'
+        'img-7 img-7 img-7 img-7'
+        'img-8 img-8 img-8 img-8';
+    }
+    .image-gallery a{
+    .img-1,
+    .img-6{
+       min-height: 30rem;
+       height: 30rem;
+    }
+    
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
